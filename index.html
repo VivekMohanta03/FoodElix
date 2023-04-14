@@ -15,20 +15,24 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="logo.png" type="">
   </head>
   <body>
-    <nav id="navbar">
-      <div id="logo">
-        <img src="logo.png" alt="FoodElix.com" />
-      </div>
-      <ul>
-        <li class="item"><a href="#home">Home</a></li>
-        <li class="item"><a href="#services">Services</a></li>
-        <li class="item"><a href="#client-section">Our Clients</a></li>
-        <li class="item"><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-    <section id="home">
+    <header>
+      <nav id="navbar">
+        <div id="logo">
+          <img src="logo.png" alt="FoodElix.com" />
+        </div>
+        <ul>
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#our-services">Services</a></li>
+          <li class="item"><a href="#client-section">Our Clients</a></li>
+          <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section class="home">
       <h1 class="h-primary">Welcome To FoodElix</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt
@@ -41,7 +45,7 @@
       <button class="btn">Order Now</button>
     </section>
     <!-- <hr /> -->
-    <section class="services-container">
+    <section  id= "our-services" class="services-container">
       <h1 class="h-primary center">Our Services</h1>
       <div id="services">
         <div class="box">
@@ -138,6 +142,7 @@
               placeholder="Enter your Message"
             ></textarea>
           </div>
+          <input class="form-submit-button" type="submit" value="Submit" style="width: 150px;">
         </form>
       </div>
     </section>
@@ -147,5 +152,7 @@
         Mohanta
       </div>
     </footer>
+  </main>
+  <script src="food.js"></script>
   </body>
 </html>
