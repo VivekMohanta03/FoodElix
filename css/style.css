@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+h1{
+  text-align: center;
+}
 
 html {
   scroll-behavior: smooth;
@@ -27,10 +30,10 @@ html {
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 13%;
+  height: 17%;
   width: 100%;
   z-index: -2;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -57,7 +60,7 @@ html {
 }
 
 #navbar ul li a {
-  color: rgb(229, 214, 214);
+  color: rgb(240, 239, 239);
   display: block;
   padding: 3px 22px;
   border-radius: 20px;
@@ -78,13 +81,6 @@ header {
   transition: background 250ms ease-in;
   background: var(--background);
   color: var(--text);
-}
-
-.nav-scrolled {
-  --text: #333;
-  --text-inverse: #eacece;
-  --background: rgb(29, 1, 29);
-  box-shadow: 0 3px 20px rgb(5, 4, 4);
 }
 
 #navbar ul li a:hover{
@@ -207,7 +203,7 @@ header {
 #contact-box textarea {
   text-align: center;
   width: 100%;
-  padding: 0.5rem;
+  padding:7px 0px 7px  0px;
   border-radius: 9px;
   font-size: 1.1rem;
 }
@@ -256,23 +252,21 @@ footer {
   color: black;
   background-color: antiquewhite;
 }
+.form-group{
+  text-align: center;
+}
 .form-submit-button {
 	background: #090909;
 	color: #fff;
 	border: 1px solid #494646;
 	border-radius: 20px;
-	text-shadow: none;
-    margin-top: 20px;
-    margin-left:40%;
-    height : 40px;
-    width:50px;
 }
 
 .form-submit-button:hover {
-	background: #6e60e5fd;
+	background: #6b6a74fd;
 	color: #fff;
 	border: 1px solid #eee;
 	border-radius: 20px;
-	text-shadow: none;
 }
+
 
