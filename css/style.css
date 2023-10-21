@@ -260,6 +260,7 @@ footer {
 	color: #fff;
 	border: 1px solid #494646;
 	border-radius: 20px;
+  cursor: pointer;
 }
 
 .form-submit-button:hover {
