@@ -201,7 +201,7 @@ header {
 }
 #contact-box input,
 #contact-box textarea {
-  text-align: center;
+  text-align: left;
   width: 100%;
   padding:7px 0px 7px  0px;
   border-radius: 9px;
@@ -260,6 +260,7 @@ footer {
 	color: #fff;
 	border: 1px solid #494646;
 	border-radius: 20px;
+  cursor: pointer;
 }
 
 .form-submit-button:hover {
